@@ -1,0 +1,21 @@
+{
+  "name": "vue-elong-hotel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wlw620/vue-elong-hotel.git",
+  "author": "<yuewei.wu@corp.elong.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "webpack": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.15"
+  }
+}
